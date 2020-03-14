@@ -1,0 +1,18 @@
+AllCops:
+  Exclude:
+    - 'config/**/*.rb'
+    - 'node_modules/**/*'
+    - 'db/**/*'
+    - 'bin/**/*'
+    - 'spec/*_helper.rb'
+    - 'tmp/**/*'
+    - 'test/**/*'
+    - 'vendor/**/*'
+    - 'Gemfile'
+    - 'Rakefile'
+
+Documentation:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
